@@ -4,18 +4,21 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Django / Flask
-*.db
+# Django
 *.sqlite3
-.env
+db.sqlite3
+media/
+staticfiles/
 
-# MySQL dumps
-*.sql
+# Virtual environment
+venv/
+env/
 
 # IDE
 .vscode/
 .idea/
 
-# OS files
+# System
 .DS_Store
 Thumbs.db
+
